@@ -1,0 +1,83 @@
+body{
+    background:linear-gradient(rgba(255,255,255,0.1), rgba(255,255,255,0.1)), url(drumkit.jpg);
+    
+}
+
+*{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.title{
+    color: black;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+    font-size: 60px;
+    color: white;
+
+    
+}
+
+#container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.keybox{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 400px;
+    height: 200px;
+    width: 80vw;
+}
+
+.key{
+    width: 75px;
+    height: 75px;
+    background: gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 10px;
+    border: black;
+    border-style: solid;
+    border-width: 6px;
+    background: rgba(0,0,0,0.5);
+    /*transition-duration: 0.1s;*/
+    
+}
+
+.keyLetter{
+    font-size: 30px;
+    font-weight: 1000;
+    margin-top: 15px;
+}
+
+.componentName{
+    font-size: 10px;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: baseline;
+    margin-top: 8px;
+}
+
+.playing{
+    scale: 1.1;
+    background: gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 10px;
+    //border: gray;
+    border-style: solid;
+    transition-duration: 0.05s;
+    border-width: 8px;
+    background: rgba(0,0,0,0.5);
+}
